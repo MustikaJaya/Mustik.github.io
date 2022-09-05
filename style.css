@@ -1,0 +1,41 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 0 0px 0 0px;
+    background-color: #8f9779;
+    height: 100px;
+    align-items: center;
+    font-family: 'Times New Roman', Times-bold;
+    font-size: large;
+    color: white;
+
+
+    
+}
+.header{
+    height: 600px;
+    background-color: aquamarine;
+}
+.main{
+    height: 300px;
+}
+.footer{
+    height: 30px;
+}
+
+.footer-main {
+    float: right;
+}
+
+.footer-list li {
+    list-style-type: none;
+    padding-top: 20px;
+    
+
+}
