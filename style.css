@@ -1,0 +1,75 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.header-lis li {
+    float: left;
+    padding: 33px 0 80px 0;
+}
+
+.main {
+    background-color: #b1b3b3;
+    padding: 100px 0 80px 0;
+}
+
+.section-title {
+    border-bottom: 2px solid #0c0c0c;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: 10px auto;
+    text-align: justify;
+}
+
+.kolom-koran {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+.contact-form {
+    padding-top: 50px;
+}
+
+input,textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+input,textarea{
+    border: 1px solid #030405;
+
+}
+
+.submit-contact {
+    background-color: #dee7ec;
+    color: black;
+}
+
+.footer {
+    background-color: rgb(103, 32, 32);
+    height: 120px;
+    padding: 20px 40px;
+}
+
+.footer-logo {
+    font-size: 30px;
+    float: left;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    padding-bottom: 20px;
+}
